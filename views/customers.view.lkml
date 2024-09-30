@@ -68,6 +68,6 @@ view: customers {
   }
   measure: count {
     type: count
-    drill_fields: [name]
+    drill_fields: [name, email]
   }
 }
